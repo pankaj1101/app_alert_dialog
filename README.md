@@ -79,5 +79,5 @@ Contributions are welcome! Feel free to submit a pull request or report issues.
 
 ## Contact
 
-For any queries or support, feel free to reach out via [GitHub Issues](https://github.com/pankaj1101/app_alert_dialog).
+For any queries or support, feel free to reach out via [GitHub Issues](https://github.com/pankaj1101/app_alert_dialog/issues).
 
