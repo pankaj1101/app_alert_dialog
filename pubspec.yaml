@@ -1,6 +1,6 @@
 name: app_alert_dialog
 description: "A simple customizable alert dialog with two buttons for Flutter apps."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/pankaj1101/app_alert_dialog
 repository: https://github.com/pankaj1101/app_alert_dialog
 

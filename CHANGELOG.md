@@ -1,3 +1,10 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Initial release of the `app_alert_dialog` package.
+- Added support for customizable alert dialogs.
+- Included basic dialog styles and configurations.
+- Compatible with Flutter version 3.29.1
+
+## 0.0.2
+
+- Added dart format code
