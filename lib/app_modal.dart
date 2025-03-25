@@ -40,18 +40,18 @@ class AppModal extends StatelessWidget {
                 children: [
                   closeIcon
                       ? Container(
-                        margin: EdgeInsets.only(right: 16),
-                        child: InkWell(
-                          onTap: () {
-                            Navigator.pop(context);
-                          },
-                          borderRadius: BorderRadius.circular(30),
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(Icons.close),
+                          margin: EdgeInsets.only(right: 16),
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.pop(context);
+                            },
+                            borderRadius: BorderRadius.circular(30),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Icon(Icons.close),
+                            ),
                           ),
-                        ),
-                      )
+                        )
                       : SizedBox(height: 15),
                 ],
               ),
