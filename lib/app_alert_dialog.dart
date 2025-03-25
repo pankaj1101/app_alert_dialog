@@ -16,21 +16,20 @@ class AppAlertDialogs {
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder:
-          (BuildContext alertContext) => PopScope(
-            canPop: false,
-            child: AppModal(
-              subject: dialogBodyObject.title,
-              message: dialogBodyObject.message,
-              icon: SvgPicture.asset(dialogBodyObject.iconPath),
-              closeIcon: showCloseIcon,
-              buttons: _buttonBuilder(
-                alertContext,
-                primaryButton,
-                secondaryButton,
-              ),
-            ),
+      builder: (BuildContext alertContext) => PopScope(
+        canPop: false,
+        child: AppModal(
+          subject: dialogBodyObject.title,
+          message: dialogBodyObject.message,
+          icon: SvgPicture.asset(dialogBodyObject.iconPath),
+          closeIcon: showCloseIcon,
+          buttons: _buttonBuilder(
+            alertContext,
+            primaryButton,
+            secondaryButton,
           ),
+        ),
+      ),
     );
   }
 
