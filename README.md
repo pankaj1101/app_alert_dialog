@@ -11,13 +11,16 @@ A Flutter package to display customizable alert dialogs with two buttons and an 
 ## Screenshots
 
 ### Success Alert Dialog
-![Success Dialog](![image](https://github.com/user-attachments/assets/55e6a3b5-8331-40eb-bd9a-f1a98251ea9b))
+![Success Dialog](![image](https://github.com/user-attachments/assets/55e6a3b5-8331-40eb-bd9a-f1a98251ea9b)
+)
 
 ### Error Alert Dialog
-![Error Alert](![image](https://github.com/user-attachments/assets/b94fb88e-1a58-4560-9adf-9e8010e2f6f4))
+![Error Alert](![image](https://github.com/user-attachments/assets/b94fb88e-1a58-4560-9adf-9e8010e2f6f4)
+)
 
 ### Error Dialog with 2 action button
-![Error Dialog with 2 action button](![image](https://github.com/user-attachments/assets/c266e4bc-c4a8-4f8d-ba99-68dbd55a17b6))
+![Error Dialog with 2 action button](![image](https://github.com/user-attachments/assets/c266e4bc-c4a8-4f8d-ba99-68dbd55a17b6)
+)
 
 
 ## Installation
