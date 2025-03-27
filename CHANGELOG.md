@@ -14,8 +14,13 @@
 ### Added
 
 - Example code for better usage understanding.
-- Screenshots of the dialog for visual reference.
 
 ### Changed
 
 - Simplified the code structure to reduce complexity and improve maintainability.
+
+## 0.0.4 2024-03-27
+
+### Added
+
+- Screenshots of the dialog for visual reference.

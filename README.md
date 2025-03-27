@@ -11,16 +11,12 @@ A Flutter package to display customizable alert dialogs with two buttons and an 
 ## Screenshots
 
 ### Error Alert Dialog
-<p align="center">
-  <img src="screenshots/error_alert_dialog_with_single_buttons.png" width="45%" />
-  <img src="screenshots/error_alert_dialog_with_two_buttons.png" width="45%" />
-</p>
+<img src="https://raw.githubusercontent.com/pankaj1101/app_alert_dialog/refs/heads/main/screenshots/error_alert_dialog_with_single_buttons.png" width="45%" />
+<img src="https://raw.githubusercontent.com/pankaj1101/app_alert_dialog/refs/heads/main/screenshots/error_alert_dialog_with_two_buttons.png" width="45%" />
 
 ### Success Alert Dialog
-<p align="center">
-  <img src="screenshots/success_alert_dialog_without_close_icon.png" width="45%" />
-  <img src="screenshots/sucess_alert_dialog_button.png" width="45%" />
-</p>
+<img src="https://raw.githubusercontent.com/pankaj1101/app_alert_dialog/refs/heads/main/screenshots/success_alert_dialog_without_close_icon.png" width="45%" />
+<img src="https://raw.githubusercontent.com/pankaj1101/app_alert_dialog/refs/heads/main/screenshots/sucess_alert_dialog_button.png" width="45%" />
 
 
 ## Installation
@@ -51,10 +47,8 @@ import 'package:app_alert_dialog/app_alert_dialog.dart';
 ```dart
 AppAlertDialogs.showAlertDialog(
   context: context,
-  dialogBodyObject: DialogBodyObject(
-    title: 'Success',
-    message: 'You have pushed the button this many times: \$_counter',
-  ),
+  title:'Success',
+  message:'You have pushed the button this many times: \$_counter',
   primaryButton: (pContext) {
     return ElevatedButton(
       onPressed: () {
