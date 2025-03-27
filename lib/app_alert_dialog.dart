@@ -8,7 +8,9 @@ import 'package:flutter_svg/svg.dart';
 class AppAlertDialogs {
   static void showAlertDialog({
     required BuildContext context,
-    required DialogBodyObject dialogBodyObject,
+    required String title,
+    required String message,
+    String iconPath = AppConstant.errorIcon,
     required Widget Function(BuildContext) primaryButton,
     Widget Function(BuildContext)? secondaryButton,
     bool showCloseIcon = false,
@@ -19,9 +21,9 @@ class AppAlertDialogs {
       builder: (BuildContext alertContext) => PopScope(
         canPop: false,
         child: AppModal(
-          subject: dialogBodyObject.title,
-          message: dialogBodyObject.message,
-          icon: SvgPicture.asset(dialogBodyObject.iconPath),
+          subject: title,
+          message: message,
+          icon: SvgPicture.asset(iconPath),
           closeIcon: showCloseIcon,
           buttons: _buttonBuilder(
             alertContext,
@@ -51,16 +53,4 @@ class AppAlertDialogs {
     }
     return buttonList;
   }
-}
-
-class DialogBodyObject {
-  final String title;
-  final String message;
-  final String iconPath;
-
-  const DialogBodyObject({
-    required this.title,
-    required this.message,
-    this.iconPath = AppConstant.errorIcon,
-  });
 }
